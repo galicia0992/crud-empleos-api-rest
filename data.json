@@ -1,0 +1,29 @@
+{
+  "post": [
+    {
+      "id": 1,
+      "company": "posadas",
+      "logo": "./images/photosnap.svg",
+      "new": true,
+      "featured": true,
+      "position": "",
+      "role": "Frontend",
+      "level": "Junior",
+      "postedAt": "1d ago",
+      "contract": "Full Time",
+      "location": "usa",
+      "languages": [
+        "HTML",
+        "CSS",
+        "Java",
+        "Node",
+        "Laravel",
+        "React",
+        "Angular",
+        "Ruby",
+        "Mongo"
+      ],
+      "tools": []
+    }
+  ]
+}

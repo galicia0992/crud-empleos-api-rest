@@ -1,0 +1,176 @@
+body{
+    margin: 0;
+    font-family: 'League Spartan', sans-serif;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 30px 40px 30px;
+    flex-direction: column;
+}
+p{
+    margin: 0 0 13px 0;
+}
+.imgBg{
+    background-color: hsl(180, 29%, 50%);
+    width: 100%;
+    height: 20vh;
+}
+.hr{
+    height: .5px;
+    width: 100%;
+    background-color: rgb(195, 183, 183);
+}
+.day{
+    width: 19%;
+}
+.cardPuesto{
+    width: 100%;
+    height: 350px;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-bottom: 40px;
+}
+.icon{
+    width: 50px;
+    position: relative;
+    top: -30px;
+    left: 0;
+}
+.bVerde{
+    background-color: hsl(180, 29%, 50%);
+    color: white;
+    padding: 2% 5% 1% 5%;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.bNegro{
+    background-color: black;
+    color: white;
+    padding: 2% 5% 1% 5%;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.nombrePuesto{
+    font-weight: bold;
+}
+.empresaPuesto{
+    color: hsl(180, 29%, 50%);
+}
+.caracteristicasPuesto, .status{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.tags{
+    display: flex;
+    flex-wrap: wrap;
+}
+.tag{
+    color: hsl(180, 29%, 50%);
+    font-weight: 700;
+    background-color: hsl(180, 53%, 93%);
+    margin: 7px;
+    padding: 3%;
+    border-radius: 3px;
+}
+
+
+.multiselect {
+    width: 200px;
+  }
+  
+  .selectBox {
+    position: relative;
+  }
+  
+  .selectBox select {
+    width: 100%;
+    font-weight: bold;
+  }
+  
+  .overSelect {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  }
+  
+  #checkboxes {
+    display: none;
+    border: 1px #dadada solid;
+  }
+  
+  #checkboxes label {
+    display: block;
+  }
+  
+  #checkboxes label:hover {
+    background-color: #1e90ff;
+  }
+
+  @media (min-width: 576px) { 
+    .cardPuesto{
+        width: 80%;
+    }
+   }
+
+  @media (min-width: 768px) { 
+    .cardPuesto{
+        width: 530px;
+    }
+
+   }
+
+   @media (min-width: 992px) { 
+    .cardPuesto{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+        padding: 20px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        margin-bottom: 40px;
+    }       
+    .hr{
+        display: none;
+    }
+    .sep{
+        display: flex;
+        flex-direction: column;
+        margin-right: 30%;
+    }
+    .caracteristicasPuesto{
+        width: 280px;
+    }
+    p{
+        margin: 0;
+    }
+    .icon{
+        width: 70px;
+        position: static;
+        margin-right: 10px;
+    }
+    .tags{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .tag{
+        color: hsl(180, 29%, 50%);
+        font-weight: 700;
+        background-color: hsl(180, 53%, 93%);
+        margin: 7px;
+        padding: 3%;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+    }
+    }
